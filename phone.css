@@ -1,0 +1,72 @@
+*{
+    line-height: 1.5;
+}
+/* Navbar */
+#navbar{
+    flex-direction: column;
+    width: auto;
+    padding: 0;
+}
+
+#navbar img{
+    width: 3rem;
+    height: 3rem;
+    margin-bottom: 5px;
+}
+
+#navbar ul li{
+    margin: 10px;
+}
+
+#navbar ul li a{
+    font-size: 0.8rem;
+
+}
+
+
+/* Home */
+#home{
+    height: 400px;
+}
+
+#home::before{
+    height: 500px;
+}
+
+#home h1{
+    font-size: 1.5rem;
+}
+
+
+/* Services */
+#services{
+    flex-direction: column;
+    padding: 3px;
+}
+
+/* Contact */
+#contact input{
+    width: auto;
+}
+
+#contact label{
+    width: auto;
+    text-align: left;
+}
+
+#contact textarea{
+    width: auto;
+}
+
+
+/* All */
+p{
+    font-size: 1.2rem;
+    margin: 5px;
+    text-align: center;
+}
+
+hr{
+    margin: 5px auto ;
+}
+
